@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Text, View, Button } from 'react';
 import App from '../App.js';
 
 class Hello extends React.Component {
@@ -27,7 +26,5 @@ const Child = () => (
       Hello, World!
   </div>
 )
-
-const app = document.getElementById('app')
 
 export default Hello;
